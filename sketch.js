@@ -17,7 +17,7 @@ function setup() {
 	world = engine.world;
 	
 	paperObject=new paper(200,450,70);
-	groundObject=new ground(width/2,670,width,20);
+	groundObject1=new ground(width/2,670,width,20);
 	dustbinObj=new dustbin(1200,650);
 	//Create a Ground
 	
@@ -44,7 +44,7 @@ function draw() {
  
   
   paperObject.display();
-  groundObject.display();
+  groundObject1.display();
   dustbinObj.display();
 
   
